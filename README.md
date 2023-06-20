@@ -15,7 +15,7 @@ Barikade uses WinDivert to work, there may be a failure to prevent network conne
 ## How to use
 Because Barikade is a Windows Service, to run it please open a command prompt or terminal as an administrator then run the command below:
 ```
-sc create "Barikade" binpath= C:\example\path\of\\Barikade.exe start= auto
+sc create "Barikade" binpath= C:\example\path\of\Barikade.exe start= auto
 ```
 
 Then run Barikade for the first time.
@@ -34,6 +34,7 @@ AllowedPaths.ini file will be created in the directory where Barikade.exe is loc
 ```
 
 > Directories that start with a + sign are recursive, while directories that start with a - sign are non-recursive.
+> Barikade must be in one of the listed directories, otherwise it will not be able to run.
 
 Restart Barikade service or restart Windows to apply changes.
 
