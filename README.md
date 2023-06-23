@@ -11,6 +11,9 @@ You should not use Barikade as the main protection layer for Windows hardening. 
 
 Barikade uses WinDivert to work, there may be a failure to prevent network connection. So, make sure you use it with caution.
 
+Click this YouTube thumbnail for demo:
+
+[![Video](https://img.youtube.com/vi/oyM5S3AnAnU/hqdefault.jpg)](https://www.youtube.com/watch?v=oyM5S3AnAnU)
 
 ## How to use
 Because Barikade is a Windows Service, to run it please open a command prompt or terminal as an administrator then run the command below:
@@ -37,6 +40,3 @@ AllowedPaths.ini file will be created in the directory where Barikade.exe is loc
 > Barikade must be in one of the listed directories, otherwise it will not be able to run.
 
 Restart Barikade service or restart Windows to apply changes.
-
-## To-Do
-- [ ] Analyze the causes of high CPU usage
