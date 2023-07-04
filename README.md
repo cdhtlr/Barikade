@@ -37,7 +37,7 @@ AllowedPaths.ini file will be created in the directory where Barikade.exe is loc
 ```
 
 > Directories that start with a + sign are recursive, while directories that start with a - sign are non-recursive.
-> Barikade must be in one of the listed directories, otherwise it will not be able to run.
+> The Barikade program directory is automatically allowed to run any program non-recursively.
 
 ### Logging
 ```
