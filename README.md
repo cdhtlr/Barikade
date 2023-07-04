@@ -39,4 +39,9 @@ AllowedPaths.ini file will be created in the directory where Barikade.exe is loc
 > Directories that start with a + sign are recursive, while directories that start with a - sign are non-recursive.
 > Barikade must be in one of the listed directories, otherwise it will not be able to run.
 
+### Logging
+```
+Create a Log.txt file in the Barikade program directory to enable file deletion logging
+```
+
 Restart Barikade service or restart Windows to apply changes.
